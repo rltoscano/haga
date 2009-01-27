@@ -1,0 +1,14 @@
+This is the README file for HAGA. HAGA is a computer program written in Java that helps biologists and other genomic researchers in the complicated process of genome alignment.
+
+Copyright 2007 Robert Toscano and Shannon Iyo
+
+Homepage: http://rltoscano.dnsalias.com/haga
+Contact: robert.l.toscano@gmail.com
+
+See the file VERSION to see which version HAGA is.
+
+HAGA is free software. See the file COPYING for copying conditions.
+
+See the file INSTALL for instructions on how to get HAGA running.
+
+See the files in doc/ for an in-depth literature on HAGA.

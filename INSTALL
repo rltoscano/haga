@@ -1,0 +1,18 @@
+To build the source, execute the following commands from the folder that this
+file is in:
+
+    mkdir bin
+    mkdir bin/res
+    find . -iname *.java | xargs javac -cp lib/jahmm-0.6.1.jar:lib/xercesImpl.jar -d bin
+    cp res/hmm.xml bin/res
+
+To run the program, execute the following command (from the same folder):
+
+    java -cp bin:lib/jahmm-0.6.1.jar:lib/xercesImpl.jar haga.Haga
+
+You can also make a jar of HAGA by running the following command (again, from
+the same folder):
+
+    jar cfm haga.jar Manifest.txt -C bin/ .
+
+Please consult the folder doc for information on how to use Haga.
